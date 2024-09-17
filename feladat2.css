@@ -1,25 +1,14 @@
-* {
-    margin: 0;
-    padding: 0;
-}
 
-body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    height: 100vh;
-}
-
-.container{
+.container2{
     display: flex;
     flex-direction: column;
     gap: 10px;
     width: 80%;
     height: 80%;
+    margin-bottom: 150px;
 }
 
-.container > nav {
+.container2 > nav {
     display: flex;
     align-items: center;
     width: 100%;
@@ -35,7 +24,7 @@ button{
     width: 100px;
 }
 
-.flex-container{
+.container2 > .flex-container{
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -43,20 +32,20 @@ button{
     gap: 20px;
 }
 
-.f2{
+.m2{
     display: flex;
     flex: 2;
     height: 100%;
     background-color: yellow;
 }
-.f1{
+.m1{
     display: flex;
     flex: 1;
     height: 100%;
     background-color: green;
 }
 
-footer{
+.container2 > footer{
     height: 100px;
     background-color: gray;
     width: 100%;

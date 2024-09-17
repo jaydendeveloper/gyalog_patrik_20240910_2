@@ -5,15 +5,17 @@
 
 body{
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     width: 100vw;
-    height: 100vh;
+    height: 250vh;
 }
 
 .container{
     width: 80%;
     height: 80%;
+    margin-bottom: 150px;
 }
 
 .container > nav {
@@ -32,7 +34,7 @@ button{
     width: 100px;
 }
 
-.flex-container{
+.container > .flex-container{
     display: flex;
     flex-direction: row;
     width: 100%;
